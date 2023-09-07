@@ -2,7 +2,7 @@
 /** 
  * main - Entry point
  *  
- * Describtion :print text by printf
+ * Description :print text by printf
  *
  * return :always 0(success)
 */
