@@ -1,8 +1,8 @@
 #include <stdio.h>
 /** 
- * main - entry point
+ * main - Entry point
  *  
- * describtion :print text by printf
+ * Describtion :print text by printf
  *
  * return :always 0(success)
 */
