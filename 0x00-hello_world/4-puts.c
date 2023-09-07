@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void)
 {
-    puts("/"Programming is like building a multilingual puzzle");
+ puts ("\"git add . && git commit -m "update" && git push");
     return (0);
 }
