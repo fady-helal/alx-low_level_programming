@@ -2,21 +2,23 @@
 /**
  * main - Entry Point
  *
- * Description: This putchar task
+ * Description: This is for loop
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char x,y;
+	char x;
+
 	for (x = 'a' ; x <= 'z' ; x++)
 	{
-	putchar (x);
+		putchar(x);
 	}
-	for (y = 'A' ; y <= 'Z' ; y++)
+
+	for (x = 'A' ; x <= 'Z' ; x++)
 	{
-	putchar (y);
+		putchar(x);
 	}
-	putchar ('\n');
+	putchar('\n');
+	return (0);
 }
