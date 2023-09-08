@@ -5,16 +5,19 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-int number ;
-printf ("please enter number %d\n");
-scanf ("%d",&number);
-if (number > 0) {
-        printf("The number is positive.\n");
-    } else if (number < 0) {
-        printf("The number is negative.\n");
-    } else {
-        printf("The number is zero.\n");
-    }
+	int n;
 
-    return 0;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	if (n==0){
+	printf("n equal zero\n");
+}	
+	else if (n > 1) {
+	printf ("number is positive\n");
+}
+	else (n < 1){
+	printf ("number is negative \n");
+}
+	return (0);
 }
