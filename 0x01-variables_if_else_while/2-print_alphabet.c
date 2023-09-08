@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * mian - Entry point
+ * main - Entry point
  *
  * Description: print lower alpabet
  *
  * return: (0) :success
 */
-int main (void)
+int main(void)
 {
 char x;
 for (x = 'a' ; x <= 'z' ; x++)
