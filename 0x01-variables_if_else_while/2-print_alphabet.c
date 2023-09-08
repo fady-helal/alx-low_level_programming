@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - Entry point
+ * main - Entry Point
  *
- * Description: print lower alpabet
+ * Description: This is for loop
  *
- * return: (0) :success
-*/
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 char x;
