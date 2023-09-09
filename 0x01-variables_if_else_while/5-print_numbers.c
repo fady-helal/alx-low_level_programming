@@ -1,18 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - Entry point
+ * main - Entry Point
  *
- * Description: print all single digit
+ * Description: for loop
  *
- * Return: (0)success
-*/
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-int i;
-for (i = 0 ; i <= 9 ; i++)
-{
-pritnf("%d", i);
-}
-printf("\n");
-return (0);
+	int x;
+
+	for (x = 0 ; x < 10 ; x++)
+	{
+		printf("%d", x);
+	}
+	printf("\n");
+	return (0);
 }
