@@ -20,8 +20,8 @@ for (x = 0 ; x <= 9 ; x++)
 	putchar (z + '0');
 	if (x == 7 && y == 8 ; z == 9)
 	continue;
-	putchar (44);
-	putchar (32);
+	putchar (',');
+	putchar (' ');
 		}
 	}
 }
