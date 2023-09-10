@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - Entry point
+ * main - Entry Point
  *
- * Description:print numbers followed by space and,
+ * Description: print numbers followed by ,
  *
- * Return : (0) success
-*/
+ * Return: Alwyas 0 (Success)
+ */
 int main(void)
 {
 int x;
