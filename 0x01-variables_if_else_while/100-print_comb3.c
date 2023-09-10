@@ -15,10 +15,11 @@ for (x = 0 ; x <= 8 ; x++)
 	{
 	putchar (x + '0');
 	putchar (y + '0');
-	if (x == 8 && y == 9)
+	if (!(x == 8 && y == 9))
 	{
 	putchar (44);
 	putchar (32);
+	}
 	}
 	}
 putchar ('\n');
