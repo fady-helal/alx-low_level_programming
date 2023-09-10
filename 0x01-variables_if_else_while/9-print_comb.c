@@ -12,8 +12,8 @@ int x;
 for (x = 48 ; x < 58 ; x++)
 {
 	putchar(x);
-if (x == 9)
-continue;
+	if (x == 9)
+		continue;
 	putchar(44);
 	putchar(32);
 }
