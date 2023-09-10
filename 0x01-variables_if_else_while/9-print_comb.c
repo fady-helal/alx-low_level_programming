@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description : print numbers followed by space and ,
+ * Description:print numbers followed by space and,
  *
  * Return : (0) success
 */
