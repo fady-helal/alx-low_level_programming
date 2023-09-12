@@ -1,7 +1,11 @@
 #include "main.h"
-
 /**
- * Description: Write a function that prints 10 times the alphabet,
+ *print_alphabet_x10 - write alphabet 10 times
+ *@void: no parameter
+ *
+ *Description: function file for alphabet 10X
+ *
+ * Return: On success 0
  */
 void print_alphabet_x10(void)
 {
