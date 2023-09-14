@@ -8,7 +8,7 @@ if (c >= 48 && c <= 57)
 }
 else
 {
-return(0);
+return 0(0);
 }
 }
 
