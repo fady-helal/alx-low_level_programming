@@ -6,20 +6,20 @@
  *
  * Return: Alwyas 0 (Success)
  */
-long largest_prime_factor(long n);
-long largest_prime_factor(long n) {
-    long i = 2;
-    while (i * i <= n) {
-        if (n % i != 0) {
-            i += 1;
-        } else {
-            n /= i;
-        }
-    }
-    return n;
-}
 
-int main() {
-    printf("%ld\n", largest_prime_factor(612852475143));
-    return 0;
+int main(void)
+{
+	long int x, y;
+
+	x = 612852475143;
+
+	for (y = 2 ; x > y ; y++)
+	{
+		if (x % y == 0)
+		{
+			x = x / y;
+		}
+	}
+	printf("%ld\n", y);
+	return (0);
 }
