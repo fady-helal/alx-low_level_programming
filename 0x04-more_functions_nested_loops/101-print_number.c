@@ -41,9 +41,9 @@ void print_number(int n)
 		_putchar(x + '0'); }
 	else if ((n > 999 && n <= 9999) || (n < -999 && n >= -9999))
 	{
-		_putchar(a + '0');
-		_putchar(z + '0');
-		_putchar(y + '0');
-		_putchar(x + '0'); 
+	_putchar(a + '0');
+	_putchar(z + '0');
+	_putchar(y + '0');
+	_putchar(x + '0');
 	}
 }
