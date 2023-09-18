@@ -1,10 +1,10 @@
-#include"main.h"
+#include "main.h"
 /**
- * description : swap two integer
- * @a,@b is a pointer
- * return : none
- * swap_int swap two integer
- * */
+ * swap_int - swap two values
+ * @a: pointer to integer
+ * @b: pointer to integer
+ * Return: none void
+ */
 void swap_int(int *a, int *b)
 {
 	*a = 42;
