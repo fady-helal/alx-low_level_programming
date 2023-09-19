@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strlen : calculate number of string
- * @s : is a pointer
- *
- * return : i
-*/
+ * _strlen - count the array elements
+ * count the string array elements
+ * @s: string Array
+ * Return: int value
+ */
 int _strlen(char *s)
 {
 
