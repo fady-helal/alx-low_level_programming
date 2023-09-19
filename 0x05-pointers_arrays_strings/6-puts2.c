@@ -18,7 +18,7 @@ length++;
 	{
 	if (i % 2 == 0 )
 	{
-		_putchar(i + '0');
+		_putchar(str[length]);
 	}
 	}
 	_putchar('\n');
