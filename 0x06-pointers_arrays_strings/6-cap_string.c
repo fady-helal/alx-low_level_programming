@@ -24,7 +24,6 @@ int is_sep(char c)
  * @str: string array
  * Return: char *
  */
-
 char *cap_string(char *str)
 {
 	int i;
