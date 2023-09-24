@@ -10,22 +10,23 @@
 
 int main(void)
 {
-int first, second, next, i;
-first = 0;
-second = 1;
-	for (i = 0 ; i < 50 ; i++)
+	int x;
+	unsigned long y, z, sum;
+
+	y = 0;
+	z = 1;
+
+	for (x = 0; x < 50; x++)
 	{
-		next = first + second;
-		second = first;
-		first = next;
-		printf("res = %d ", next);
-		if (i != 49)
-		{
-			printf(", ");
-		}
-		else
-		{
+		sum = y + z;
+		y = z;
+		z = sum;
+		printf("%lu", sum);
+
+		if (x == 49)
 			printf("\n");
-		}
+		else
+			printf(", ");
 	}
+	return (0);
 }
