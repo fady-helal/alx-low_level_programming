@@ -16,15 +16,10 @@ for (i = 0 ; i < 10000 ; i++)
 next = first + second;
 first = second;
 second = next;
-printf("%lu", next);
+}
 if (next < 4000000)
 {
-printf(", ");
-}
-if (n = 4000000)
-{
-	printf("\n");
-	break;
+printf("%lu\n", next);
 }
 return (0);
 }
