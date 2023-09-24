@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	int first ,second ,next ,i;
-	first = 0;
-	second = 1;
+int first, second, next, i;
+first = 0;
+second = 1;
 	for (i = 0 ; i < 50 ; i++)
 	{
 		next = first + second;
