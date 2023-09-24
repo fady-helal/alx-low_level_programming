@@ -6,24 +6,28 @@
  *
  * Return: Alwyas 0 (Success)
  */
+
 int main(void)
 {
-unsigned long i, first, second, next;
-first = 0;
-second = 1;
-for (i = 0 ; i < 10000 ; i++)
-{
-next = first + second;
-first = second;
-second = next;
+	int x;
+	unsigned long int y, z, sum, next;
+
+	y = 1;
+	z = 2;
+	sum = 0;
+
+	for (x = 0 ; x <= 32 ; x++)
+	{
+		if (sum < 4000000 && (y % 2) == 0)
+		{
+			sum = sum + y;
+		}
+		next = y + z;
+		y = z;
+		z = next;
+	}
+
+	printf("%lu\n", sum);
+
+	return (0);
 }
-if (next < 4000000)
-{
-printf("%lu\n", next);
-}
-return (0);
-}
-
-
-
-
