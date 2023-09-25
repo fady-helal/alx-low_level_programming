@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strspn - return number of bytes pointers look like
- * @s: pointer to string array
- * @accept: pointer to string array
- * Return: int (number of bytes)
+ *  * _strspn - return number of bytes pointers look like
+ *   * @s: pointer to string array
+ *    * @accept: pointer to string array
+ *     * Return: int (number of bytes)
  */
 
 int _strspn(char *s, char *accept)
