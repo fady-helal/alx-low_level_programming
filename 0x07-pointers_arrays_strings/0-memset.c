@@ -6,7 +6,7 @@
  *    * @b: char
  *     * @n: int number of bytes
  *      * Return: char *
- *       */
+ */
 
 char *_memset(char *s, char b, unsigned int n)
 {
