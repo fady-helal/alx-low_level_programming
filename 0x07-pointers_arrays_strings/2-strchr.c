@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strchr - return first occurance of char c in char *s
- * @s: pointer to string array
- * @c: letter
- * Return: pointer to first occurance or NULL if there is not
+ *  * _strchr - return first occurance of char c in char *s
+ *   * @s: pointer to string array
+ *    * @c: letter
+ *     * Return: pointer to first occurance or NULL if there is not
  */
 
 char *_strchr(char *s, char c)
