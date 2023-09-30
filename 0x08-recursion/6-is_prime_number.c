@@ -9,11 +9,11 @@
 
 int _prime(int x, int y)
 {
-		if (y == x)
-					return (1);
-			if (x % y == 0)
-						return (0);
-				return (_prime(x, y + 1));
+if (y == x)
+return (1);
+if (x % y == 0)
+return (0);
+return (_prime(x, y + 1));
 }
 
 /**
@@ -24,7 +24,7 @@ int _prime(int x, int y)
 
 int is_prime_number(int n)
 {
-		if (n <= 1)
-					return (0);
-			return (_prime(n, 2));
+if (n <= 1)
+return (0);
+return (_prime(n, 2));
 }
