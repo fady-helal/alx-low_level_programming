@@ -5,18 +5,18 @@
  * @x : square root
  * return : int
 */
-int square (int n,int x);
+int square(int n, int x);
 int _sqrt_recursion(int n)
 {
-	return (square(n ,1));
+	return (square(n, 1));
 }
 /**
  * square - find square root
  * @n : int to find square root
  * @x : square root
- * return : int 
+ * return : int
 */
-int square (int n,int x)
+int square(int n, int x)
 {
 if (x * x == n)
 {
@@ -24,8 +24,8 @@ if (x * x == n)
 }
 else if (x * x < n)
 {
-	return (square(n , x + 1));
+	return (square(n, x + 1));
 }
-else 
+else
 return (-1);
 }
