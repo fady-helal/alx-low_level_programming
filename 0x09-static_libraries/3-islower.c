@@ -3,15 +3,15 @@
  * Description : Write a function that checks for lowercase character.
  *
  * prameter :c
- *
+ * _islowe - check if lowercase
  * Returns 1 if c is lowercase
  *Returns 0 otherwise
-*/
+ */
 int _islower(int c)
 {
-	if (c > 97 && c < 122)
-	{
-		return (1);
-	}
-		return (0);
+if (c > 97 && c < 122)
+{
+return (1);
+}
+return (0);
 }
