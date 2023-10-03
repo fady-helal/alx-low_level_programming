@@ -1,10 +1,10 @@
 #include "main.h"
 
-/*
- * * create_array - create array of one char
- * * @size: size of array
- * * @c: char
- * * Return: pointer to array
+/**
+ * create_array - create array of one char
+ * @size: size of array
+ * @c: char
+ * Return: pointer to array
  */
 
 char *create_array(unsigned int size, char c)
