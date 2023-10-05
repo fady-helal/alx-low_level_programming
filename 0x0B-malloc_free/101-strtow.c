@@ -5,7 +5,7 @@
  *   * @ac: number of args
  *    * @av: 2d pointer to pointer
  *     * Return: pointer to str
- *      */
+ */
 
 char *argstostr(int ac, char **av)
 {
