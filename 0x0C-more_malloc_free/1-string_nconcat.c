@@ -6,7 +6,7 @@
  *    * @s2: pointer to str
  *     * @n: unsigned int
  *      * Return: ptr to str
- *       */
+ */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
