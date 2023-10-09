@@ -5,23 +5,20 @@
  *   * @min: minimum
  *    * @max: maximum
  *     * Return: pointer to int array
- */
+ *      */
 
 int *array_range(int min, int max)
 {
-	int *ptr;
-	int i;
-	int j;
-	i = min;
-	for (i = min ; i <= max ; i++);
-	i -= min;
-	ptr = malloc(sizeof (int) * i);
-	if (ptr == NULL)
-		return(NULL);
-	for (j = 0 ; j < i ; j++)
-	{
-			ptr[j] = i;
-			i++;
-	}
-	return (ptr);
+int size, i, x;
+int *arr;
+
+size = max - min + 1;
+if (size < 0)
+return (NULL);
+arr = malloc(sizeof(int) * size);
+if (arr == NULL)
+return (NULL);
+for (x = 0, i = min ; i <= max ; x++, i++)
+arr[x] = i;
+return (arr);
 }
