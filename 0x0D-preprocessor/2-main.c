@@ -4,7 +4,7 @@
  *  * main - entry point
  *   *
  *    * Return: alwyas (0)
- *     */
+ */
 
 int main(void)
 {
