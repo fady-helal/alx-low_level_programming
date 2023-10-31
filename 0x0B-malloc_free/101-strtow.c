@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *  * argstostr - function that turn every argments passed int string
- *   * @ac: number of args
- *    * @av: 2d pointer to pointer
- *     * Return: pointer to str
+ * argstostr - function that turn every argments passed int string
+ * @ac: number of args
+ * @av: 2d pointer to pointer
+ ** Return: pointer to str
  */
 
 char *argstostr(int ac, char **av)
@@ -29,7 +29,7 @@ if (str == NULL)
 return (NULL);
 
 x = 0;
-for (i = 0 ; i < ac ; i++)
+for (x = 0 ; x < ac ; x++)
 {
 for (j = 0 ; av[i][j] != '\0' ; j++)
 str[x++] = av[i][j];
