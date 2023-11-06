@@ -3,8 +3,8 @@
 /**
  *  * _strcpy - copy str
  *   * @s: pointer to char
- *    * Return: pointer to char
- *     */
+ * Return: pointer to char
+ */
 
 char *_strcpy(char *s)
 {
@@ -25,9 +25,9 @@ return (new);
  *  * new_dog - create struct dog
  *   * @name: pointer to char
  *    * @age: float
- *     * @owner: pointer to char
- *      * Return: dog_t struct
- *       */
+ * @owner: pointer to char
+ * Return: dog_t struct
+ */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
