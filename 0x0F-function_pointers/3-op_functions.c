@@ -1,17 +1,19 @@
 #include "3-calc.h"
+#include <stdlib.h>
+#include <stdio.h>
 
-/**
- *  * op_add - add two int
- *   * @a: int
- *    * @b: int
- *     * Return: int
+/*
+ * op_add - add two int
+ * @a: int
+ * @b: int
+ * Return: int
  */
 int op_add(int a, int b)
 {
 		return (a + b);
 }
 
-/**
+/*
  *  * op_sub - sub two int
  *   * @a: int
  *    * @b: int
