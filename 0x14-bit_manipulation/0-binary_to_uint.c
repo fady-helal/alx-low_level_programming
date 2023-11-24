@@ -8,10 +8,13 @@ for (length = 0 ; b[length] != '\0' ; length++)
 ;
 for (i = 0 ; i < length ; i++)
 {
+if (!b)
+return (0);
 if (b[i] == '1')
 {
 result += (1 << (length - i - 1));
 }
+
 }
 return (result);
 }
