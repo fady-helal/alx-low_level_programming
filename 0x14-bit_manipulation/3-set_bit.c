@@ -1,4 +1,4 @@
-#include"main.c"
+#include"main.h"
 /**
  * set_bit - set the bit at the index.
  * @n: the number to index.
