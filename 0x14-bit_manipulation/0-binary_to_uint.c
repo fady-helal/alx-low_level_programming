@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * binary_to_uint _ convert binary to decimal.
+ * @b:arg.
+ * Return : int.
+*/
+
 unsigned int binary_to_uint(const char *b)
 {
 int i;
