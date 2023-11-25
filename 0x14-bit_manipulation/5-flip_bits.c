@@ -14,7 +14,7 @@ while (res_xor)
 {
 if (res_xor & 1ul)
 {
-res_xor >> 1;
+res_xor = res_xor >> 1;
 count++;
 }
 }
