@@ -8,15 +8,12 @@ size_t count = 0;
 
 if (h == NULL)
 {
-    return(1);
+return (1);
 }
 while (h != NULL)
 {
-h = h -> next;
+h = h->next;
 count++;
-
 }
-
-return(count);
-
+return (count);
 }
