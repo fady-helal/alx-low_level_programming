@@ -2,11 +2,11 @@
 #define MAIN_H
 
 #include<unistd.h>
-#include<fcnt1.h>
-#incude<stdio.h>
+#include<stdio.h>
 #include<stdlib.h>
+#include<fcntl.h>
 
-#define READ_BUF 1024;
+#define READ_BUF 1024
 
 
 
