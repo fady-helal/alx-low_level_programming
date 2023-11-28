@@ -1,26 +1,19 @@
 #include"main.h"
-
-#define USAGE "Usage: cp file_from file_to\n"
-#define ERR_NOREAD "Error: Can't read from file %s \n"
-#define PERMISSIONS (S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH)
-
 /**
  * main - program.
  * @argc:argument count.
  * @argv:argument vector.
  * Return : 1 on succes 0 on failure.
 */
-int main(int argc ,char *argv[])
+int main(int argc, char *argv[])
 {
-int bytes_read,bytes_write, fd, ft;
+int bytes_read, bytes_write, fd, ft;
 char buf[READ_BUF];
-
 if (argc != 3)
 {
 dprintf(2, "Usage: cp file_from file_to\n");
 exit(97);
 }
-
 fd = open(argv[1], O_RDONLY);
 if (fd == -1)
 {
@@ -48,7 +41,6 @@ exit(99);
 }
 }
 
-
 if (close(fd) == -1)
 {
 dprintf(2, "Error: Can't close fd %d\n", fd);
@@ -57,11 +49,8 @@ exit(100);
 
 if (close(ft) == -1)
 {
-dprintf(2, "Error: Can't close fd %d\n", ft);
-exit(100);
+    dprintf(2, "Error: Can't close fd %d\n", ft);
+    exit(100);
 }
-
-
 return (0);
-
 }
