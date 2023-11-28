@@ -17,7 +17,7 @@ exit(97);
 fd = open(argv[1], O_RDONLY);
 if (fd == -1)
 {
-dprintf(2, "Error: Can't read from file %s\n", argv[0]);
+dprintf(2, "Error: Can't read from file %s\n", argv[1]);
 exit(98);
 }
 
@@ -34,7 +34,7 @@ while ((bytes_read = read(fd, buf, READ_BUF)) > 0)
 bytes_write = write(ft, buf, bytes_read);
 if (bytes_write != bytes_read)
 {
-dprintf(2, "Error: Can't write to %s\n", argv[1]);
+dprintf(2, "Error: Can't write to %s\n", argv[2]);
 close(fd);
 close(ft);
 exit(99);
